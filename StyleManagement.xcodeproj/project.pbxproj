@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F6FCE541C49445D0068804D /* Cinque Terre-Landscape.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F6FCE4A1C49445D0068804D /* Cinque Terre-Landscape.jpg */; };
+		5F6FCE551C49445D0068804D /* Cinque Terre-Portrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F6FCE4B1C49445D0068804D /* Cinque Terre-Portrait.jpg */; };
+		5F6FCE561C49445D0068804D /* Florence-Landscape.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F6FCE4C1C49445D0068804D /* Florence-Landscape.jpg */; };
+		5F6FCE571C49445D0068804D /* Florence-Portrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F6FCE4D1C49445D0068804D /* Florence-Portrait.jpg */; };
+		5F6FCE581C49445D0068804D /* Paris-Landscape.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F6FCE4E1C49445D0068804D /* Paris-Landscape.jpg */; };
+		5F6FCE591C49445D0068804D /* Paris-Portrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F6FCE4F1C49445D0068804D /* Paris-Portrait.jpg */; };
+		5F6FCE5A1C49445D0068804D /* Rome-Landscape.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F6FCE501C49445D0068804D /* Rome-Landscape.jpg */; };
+		5F6FCE5C1C49445D0068804D /* Toulouse-Landscape.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F6FCE521C49445D0068804D /* Toulouse-Landscape.jpg */; };
+		5F6FCE5D1C49445D0068804D /* Toulouse-Portrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F6FCE531C49445D0068804D /* Toulouse-Portrait.jpg */; };
+		5F9DFB831C4C1AF100B72813 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9DFB821C4C1AF100B72813 /* Device.swift */; };
+		5F9DFB851C4C20BE00B72813 /* UIColor+ConvenienceInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9DFB841C4C20BE00B72813 /* UIColor+ConvenienceInit.swift */; };
+		5F9DFB871C4C3BCF00B72813 /* Rome-Portrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F9DFB861C4C3BCF00B72813 /* Rome-Portrait.jpg */; };
+		5FF4EB8C1C430B83002D16A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF4EB8B1C430B83002D16A1 /* AppDelegate.swift */; };
+		5FF4EB8E1C430B83002D16A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF4EB8D1C430B83002D16A1 /* ViewController.swift */; };
+		5FF4EB911C430B83002D16A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FF4EB8F1C430B83002D16A1 /* Main.storyboard */; };
+		5FF4EB931C430B83002D16A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FF4EB921C430B83002D16A1 /* Assets.xcassets */; };
+		5FF4EB961C430B83002D16A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FF4EB941C430B83002D16A1 /* LaunchScreen.storyboard */; };
+		5FF4EB9E1C430C2D002D16A1 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF4EB9D1C430C2D002D16A1 /* TableViewController.swift */; };
+		5FF4EBA01C430CF8002D16A1 /* StyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF4EB9F1C430CF8002D16A1 /* StyleKit.swift */; };
+		5FF4EBA21C430D65002D16A1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF4EBA11C430D65002D16A1 /* TableViewCell.swift */; };
+		5FF4EBA41C4322B3002D16A1 /* sample.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5FF4EBA31C4322B3002D16A1 /* sample.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F6FCE4A1C49445D0068804D /* Cinque Terre-Landscape.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cinque Terre-Landscape.jpg"; sourceTree = "<group>"; };
+		5F6FCE4B1C49445D0068804D /* Cinque Terre-Portrait.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cinque Terre-Portrait.jpg"; sourceTree = "<group>"; };
+		5F6FCE4C1C49445D0068804D /* Florence-Landscape.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Florence-Landscape.jpg"; sourceTree = "<group>"; };
+		5F6FCE4D1C49445D0068804D /* Florence-Portrait.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Florence-Portrait.jpg"; sourceTree = "<group>"; };
+		5F6FCE4E1C49445D0068804D /* Paris-Landscape.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Paris-Landscape.jpg"; sourceTree = "<group>"; };
+		5F6FCE4F1C49445D0068804D /* Paris-Portrait.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Paris-Portrait.jpg"; sourceTree = "<group>"; };
+		5F6FCE501C49445D0068804D /* Rome-Landscape.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rome-Landscape.jpg"; sourceTree = "<group>"; };
+		5F6FCE521C49445D0068804D /* Toulouse-Landscape.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Toulouse-Landscape.jpg"; sourceTree = "<group>"; };
+		5F6FCE531C49445D0068804D /* Toulouse-Portrait.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Toulouse-Portrait.jpg"; sourceTree = "<group>"; };
+		5F9DFB821C4C1AF100B72813 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		5F9DFB841C4C20BE00B72813 /* UIColor+ConvenienceInit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+ConvenienceInit.swift"; sourceTree = "<group>"; };
+		5F9DFB861C4C3BCF00B72813 /* Rome-Portrait.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rome-Portrait.jpg"; sourceTree = "<group>"; };
+		5FF4EB881C430B83002D16A1 /* StyleManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StyleManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF4EB8B1C430B83002D16A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FF4EB8D1C430B83002D16A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5FF4EB901C430B83002D16A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FF4EB921C430B83002D16A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FF4EB951C430B83002D16A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FF4EB971C430B83002D16A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FF4EB9D1C430C2D002D16A1 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		5FF4EB9F1C430CF8002D16A1 /* StyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleKit.swift; sourceTree = "<group>"; };
+		5FF4EBA11C430D65002D16A1 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		5FF4EBA31C4322B3002D16A1 /* sample.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sample.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FF4EB851C430B83002D16A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F6FCE351C4943BE0068804D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5F9DFB801C4C19DB00B72813 /* images */,
+				5F9DFB811C4C19E300B72813 /* plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5F9DFB7F1C4C19AE00B72813 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5FF4EB941C430B83002D16A1 /* LaunchScreen.storyboard */,
+				5FF4EB8F1C430B83002D16A1 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		5F9DFB801C4C19DB00B72813 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5F6FCE4A1C49445D0068804D /* Cinque Terre-Landscape.jpg */,
+				5F6FCE4B1C49445D0068804D /* Cinque Terre-Portrait.jpg */,
+				5F6FCE4C1C49445D0068804D /* Florence-Landscape.jpg */,
+				5F6FCE4D1C49445D0068804D /* Florence-Portrait.jpg */,
+				5F9DFB861C4C3BCF00B72813 /* Rome-Portrait.jpg */,
+				5F6FCE4E1C49445D0068804D /* Paris-Landscape.jpg */,
+				5F6FCE4F1C49445D0068804D /* Paris-Portrait.jpg */,
+				5F6FCE501C49445D0068804D /* Rome-Landscape.jpg */,
+				5F6FCE521C49445D0068804D /* Toulouse-Landscape.jpg */,
+				5F6FCE531C49445D0068804D /* Toulouse-Portrait.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		5F9DFB811C4C19E300B72813 /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				5FF4EB971C430B83002D16A1 /* Info.plist */,
+				5FF4EBA31C4322B3002D16A1 /* sample.plist */,
+			);
+			name = plist;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		5FA565A51C4FDBEA00B060C0 /* Protocols+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5F9DFB841C4C20BE00B72813 /* UIColor+ConvenienceInit.swift */,
+			);
+			name = "Protocols+Extensions";
+			sourceTree = "<group>";
+		};
+		5FF4EB7F1C430B83002D16A1 = {
+			isa = PBXGroup;
+			children = (
+				5FF4EB8A1C430B83002D16A1 /* StyleManagement */,
+				5FF4EB891C430B83002D16A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FF4EB891C430B83002D16A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FF4EB881C430B83002D16A1 /* StyleManagement.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FF4EB8A1C430B83002D16A1 /* StyleManagement */ = {
+			isa = PBXGroup;
+			children = (
+				5FF4EB8B1C430B83002D16A1 /* AppDelegate.swift */,
+				5F9DFB821C4C1AF100B72813 /* Device.swift */,
+				5FF4EB9F1C430CF8002D16A1 /* StyleKit.swift */,
+				5FF4EB9D1C430C2D002D16A1 /* TableViewController.swift */,
+				5FF4EB8D1C430B83002D16A1 /* ViewController.swift */,
+				5FF4EBA11C430D65002D16A1 /* TableViewCell.swift */,
+				5FA565A51C4FDBEA00B060C0 /* Protocols+Extensions */,
+				5F9DFB7F1C4C19AE00B72813 /* Storyboards */,
+				5FF4EB921C430B83002D16A1 /* Assets.xcassets */,
+				5F6FCE351C4943BE0068804D /* Resources */,
+			);
+			path = StyleManagement;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FF4EB871C430B83002D16A1 /* StyleManagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FF4EB9A1C430B83002D16A1 /* Build configuration list for PBXNativeTarget "StyleManagement" */;
+			buildPhases = (
+				5FF4EB841C430B83002D16A1 /* Sources */,
+				5FF4EB851C430B83002D16A1 /* Frameworks */,
+				5FF4EB861C430B83002D16A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StyleManagement;
+			productName = StyleManagement;
+			productReference = 5FF4EB881C430B83002D16A1 /* StyleManagement.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FF4EB801C430B83002D16A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = nick_skmbo;
+				TargetAttributes = {
+					5FF4EB871C430B83002D16A1 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 5FF4EB831C430B83002D16A1 /* Build configuration list for PBXProject "StyleManagement" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FF4EB7F1C430B83002D16A1;
+			productRefGroup = 5FF4EB891C430B83002D16A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FF4EB871C430B83002D16A1 /* StyleManagement */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FF4EB861C430B83002D16A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6FCE541C49445D0068804D /* Cinque Terre-Landscape.jpg in Resources */,
+				5F6FCE551C49445D0068804D /* Cinque Terre-Portrait.jpg in Resources */,
+				5FF4EBA41C4322B3002D16A1 /* sample.plist in Resources */,
+				5F6FCE5A1C49445D0068804D /* Rome-Landscape.jpg in Resources */,
+				5FF4EB961C430B83002D16A1 /* LaunchScreen.storyboard in Resources */,
+				5F6FCE571C49445D0068804D /* Florence-Portrait.jpg in Resources */,
+				5F6FCE561C49445D0068804D /* Florence-Landscape.jpg in Resources */,
+				5F9DFB871C4C3BCF00B72813 /* Rome-Portrait.jpg in Resources */,
+				5F6FCE5D1C49445D0068804D /* Toulouse-Portrait.jpg in Resources */,
+				5F6FCE581C49445D0068804D /* Paris-Landscape.jpg in Resources */,
+				5FF4EB931C430B83002D16A1 /* Assets.xcassets in Resources */,
+				5F6FCE591C49445D0068804D /* Paris-Portrait.jpg in Resources */,
+				5FF4EB911C430B83002D16A1 /* Main.storyboard in Resources */,
+				5F6FCE5C1C49445D0068804D /* Toulouse-Landscape.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FF4EB841C430B83002D16A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF4EBA21C430D65002D16A1 /* TableViewCell.swift in Sources */,
+				5F9DFB851C4C20BE00B72813 /* UIColor+ConvenienceInit.swift in Sources */,
+				5FF4EB8E1C430B83002D16A1 /* ViewController.swift in Sources */,
+				5FF4EB9E1C430C2D002D16A1 /* TableViewController.swift in Sources */,
+				5F9DFB831C4C1AF100B72813 /* Device.swift in Sources */,
+				5FF4EBA01C430CF8002D16A1 /* StyleKit.swift in Sources */,
+				5FF4EB8C1C430B83002D16A1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5FF4EB8F1C430B83002D16A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FF4EB901C430B83002D16A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FF4EB941C430B83002D16A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FF4EB951C430B83002D16A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FF4EB981C430B83002D16A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FF4EB991C430B83002D16A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FF4EB9B1C430B83002D16A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StyleManagement/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.nick-skmbo.StyleManagement";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5FF4EB9C1C430B83002D16A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StyleManagement/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.nick-skmbo.StyleManagement";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FF4EB831C430B83002D16A1 /* Build configuration list for PBXProject "StyleManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF4EB981C430B83002D16A1 /* Debug */,
+				5FF4EB991C430B83002D16A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FF4EB9A1C430B83002D16A1 /* Build configuration list for PBXNativeTarget "StyleManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF4EB9B1C430B83002D16A1 /* Debug */,
+				5FF4EB9C1C430B83002D16A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FF4EB801C430B83002D16A1 /* Project object */;
+}

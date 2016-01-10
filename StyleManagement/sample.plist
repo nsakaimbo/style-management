@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Paris</key>
+	<dict>
+		<key>Date</key>
+		<date>2014-04-19T22:41:30Z</date>
+		<key>Description</key>
+		<string>Macaroons in Paris. Because you have to.</string>
+	</dict>
+	<key>Toulouse</key>
+	<dict>
+		<key>Date</key>
+		<date>2014-04-21T22:41:34Z</date>
+		<key>Description</key>
+		<string>We loved this city so much my girlfriend named her cat after it.</string>
+	</dict>
+	<key>Florence</key>
+	<dict>
+		<key>Date</key>
+		<date>2014-04-25T22:41:37Z</date>
+		<key>Description</key>
+		<string>Florence brought out our inner goofbals.</string>
+	</dict>
+	<key>Cinque Terre</key>
+	<dict>
+		<key>Date</key>
+		<date>2014-04-29T22:41:42Z</date>
+		<key>Description</key>
+		<string>We stayed in Riomaggiore. It was like living in a postcard.</string>
+	</dict>
+	<key>Rome</key>
+	<dict>
+		<key>Date</key>
+		<date>2014-05-05T01:35:47Z</date>
+		<key>Description</key>
+		<string>Seeing the coliseum in person was incredible.</string>
+	</dict>
+</dict>
+</plist>
