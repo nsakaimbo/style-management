@@ -1,4 +1,7 @@
 # style-management
+<p align="center">
+<img src="/StyleManagement/Assets.xcassets/AppIcon.appiconset/AppIcon60pt%403x.png"</img>
+</p>
 A proposed approach to centralizing and managing style attributes on an app-wide basis.
 
 If the design team decides to change the Hex value of a color or font specification on an application-wide basis, it would be nice to have a single point-of-update rather than try to figure out if and where to change these attributes in code or storyboards (or both!). Here's a proposed approach to doing just that. Blog post [here](http://bit.ly/1Tcw0xa).
