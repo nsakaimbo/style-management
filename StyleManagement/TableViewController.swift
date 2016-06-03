@@ -76,6 +76,13 @@ class TableViewController: UITableViewController {
         super.viewWillAppear(animated)
         self.navigationController?.navigationBarHidden = true
     }
+   
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+       
+        // Use the default title of "Back" for the back button item
+        self.navigationItem.title = nil
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

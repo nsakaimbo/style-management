@@ -18,8 +18,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Set global styles
         UINavigationBar.appearance().barTintColor = UIColor.whiteColor()
         UINavigationBar.appearance().translucent = false
-        UINavigationBar.appearance().titleTextAttributes = Text.navigationTitleAttributes
+        UINavigationBar.appearance().titleTextAttributes = [
+            NSFontAttributeName: UIFont(name: Text.Font.Bold, size: 20.0)!,
+            NSForegroundColorAttributeName: Color.Green
+        ]
         UINavigationBar.appearance().setBackgroundImage(UIImage(), forBarMetrics: .Default)
+        UINavigationBar.appearance().tintColor = Color.Gray.Dark
         UIBarButtonItem.appearanceWhenContainedInInstancesOfClasses([UINavigationBar.self]).setTitleTextAttributes(Text.navigationItemTitleAttributes, forState: .Normal)
         UINavigationBar.appearance().shadowImage = UIImage()
         

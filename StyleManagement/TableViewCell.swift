@@ -50,22 +50,22 @@ class TableViewCell: UITableViewCell {
         containerView.trailingAnchor.constraintEqualToAnchor(superview.trailingAnchor, constant: -kLayoutMargin).active = true
         containerView.topAnchor.constraintEqualToAnchor(superview.topAnchor, constant: kLayoutMargin).active = true
         containerView.bottomAnchor.constraintEqualToAnchor(superview.bottomAnchor, constant: -kLayoutMargin).active = true
+       
+        // location label
+        locationLabel = UILabel()
+        locationLabel.translatesAutoresizingMaskIntoConstraints = false
+        locationLabel.minimumScaleFactor = 0.7
+        containerView.addSubview(locationLabel)
+        locationLabel.bottomAnchor.constraintEqualToAnchor(containerView.bottomAnchor, constant: -kLayoutMargin).active = true
+        locationLabel.trailingAnchor.constraintEqualToAnchor(containerView.trailingAnchor, constant: -kLayoutMargin).active = true
         
         // date taken label
         dateTakenLabel = UILabel()
         dateTakenLabel.minimumScaleFactor = 0.7
         dateTakenLabel.translatesAutoresizingMaskIntoConstraints = false
         containerView.addSubview(dateTakenLabel)
-        dateTakenLabel.topAnchor.constraintEqualToAnchor(containerView.topAnchor, constant: kLayoutMargin).active = true
-        dateTakenLabel.leadingAnchor.constraintEqualToAnchor(containerView.leadingAnchor, constant: kLayoutMargin).active = true
-        
-        // location label
-        locationLabel = UILabel()
-        locationLabel.translatesAutoresizingMaskIntoConstraints = false
-        locationLabel.minimumScaleFactor = 0.7
-        containerView.addSubview(locationLabel)
-        locationLabel.topAnchor.constraintEqualToAnchor(dateTakenLabel.bottomAnchor, constant: kLayoutMargin).active = true
-        locationLabel.leadingAnchor.constraintEqualToAnchor(containerView.leadingAnchor, constant: kLayoutMargin).active = true
+        dateTakenLabel.bottomAnchor.constraintEqualToAnchor(locationLabel.topAnchor, constant: -kLayoutMargin).active = true
+        dateTakenLabel.trailingAnchor.constraintEqualToAnchor(containerView.trailingAnchor, constant: -kLayoutMargin).active = true
         
         // image view
         locationImageView = UIImageView()
@@ -77,7 +77,9 @@ class TableViewCell: UITableViewCell {
         locationImageView.leadingAnchor.constraintEqualToAnchor(contentView.leadingAnchor).active = true
         locationImageView.trailingAnchor.constraintEqualToAnchor(contentView.trailingAnchor).active = true
     }
+   
     
+    // MARK: Update View Properties
     func updateCellLabels(withDate date:NSDate, andLocation location:String) {
         dateTakenLabelAttributedString = NSMutableAttributedString(string: self.dateFormatter.stringFromDate(date), attributes: nil)
         dateTakenLabel.attributedText = dateTakenLabelAttributedString

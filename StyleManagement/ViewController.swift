@@ -35,10 +35,8 @@ class ViewController: UIViewController {
         
         super.viewDidLoad()
        
-        self.navigationItem.hidesBackButton = true
+        self.navigationItem.hidesBackButton = false
         self.navigationController?.navigationBarHidden = false
-        let backBarButtonItem = UIBarButtonItem(title: "Back", style: .Plain, target: self, action: .popSelfFromNavigationStack)
-        self.navigationItem.leftBarButtonItem = backBarButtonItem
         self.navigationItem.title = location
         
         // image

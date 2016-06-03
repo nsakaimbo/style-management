@@ -33,14 +33,9 @@ struct Text {
         NSForegroundColorAttributeName: UIColor.whiteColor()
     ]
     
-    static let navigationTitleAttributes = [
-        NSFontAttributeName: UIFont(name: Text.Font.Bold, size: 20.0)!,
-        NSForegroundColorAttributeName: Color.Green
-    ]
-    
     static let navigationItemTitleAttributes = [
         NSFontAttributeName: UIFont(name: Text.Font.Regular, size: 15.0)!,
-        NSForegroundColorAttributeName: UIColor.blackColor()
+        NSForegroundColorAttributeName: Color.Gray.Dark
     ]
     
 }
