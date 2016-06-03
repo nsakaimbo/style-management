@@ -8,6 +8,10 @@
 
 import UIKit
 
+private extension Selector {
+    static let popSelfFromNavigationStack = #selector(ViewController.popSelfFromNavigationStack)
+}
+
 class ViewController: UIViewController {
 
     var imageIdentifer: String!
@@ -18,18 +22,22 @@ class ViewController: UIViewController {
     var descriptionLabel: UILabel!
     var descriptionLabelAttributedText: NSMutableAttributedString! {
         didSet {
-                descriptionLabelAttributedText = NSMutableAttributedString(string: descriptionLabelAttributedText.string, attributes: StyleKit.ViewController.descriptionTextAttributes())
+            descriptionLabelAttributedText = NSMutableAttributedString(string: descriptionLabelAttributedText.string, attributes: [
+                NSFontAttributeName: UIFont(name: Text.Font.Regular, size: 15.0)!,
+                NSForegroundColorAttributeName: Color.Gray.Dark
+                ])
         }
     }
     
-    // MARK: - View Life Cycle
+    // MARK: - Life Cycle
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
        
         self.navigationItem.hidesBackButton = true
         self.navigationController?.navigationBarHidden = false
-        let backBarButtonItem = UIBarButtonItem(title: "Back", style: .Plain, target: self, action: "popSelfFromNavigationStack")
+        let backBarButtonItem = UIBarButtonItem(title: "Back", style: .Plain, target: self, action: .popSelfFromNavigationStack)
         self.navigationItem.leftBarButtonItem = backBarButtonItem
         self.navigationItem.title = location
         
@@ -37,7 +45,7 @@ class ViewController: UIViewController {
         let imageView = UIImageView(image: UIImage(named: self.imageIdentifer))
         imageView.contentMode = .ScaleAspectFit
         imageView.layer.cornerRadius = 5.0
-        imageView.layer.shadowColor = StyleKit.ViewController.imageViewShadowColor().CGColor
+        imageView.layer.shadowColor = Color.Gray.Medium.CGColor
         imageView.layer.shadowOpacity = 0.5
         imageView.layer.shadowOffset = CGSizeZero
         imageView.layer.shadowRadius = 3.0
@@ -63,6 +71,8 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
+   
+    // MARK: Navigation
     
     func popSelfFromNavigationStack() {
         self.navigationController?.popViewControllerAnimated(true)

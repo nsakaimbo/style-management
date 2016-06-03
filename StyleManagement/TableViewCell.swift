@@ -18,20 +18,20 @@ class TableViewCell: UITableViewCell {
     var dateTaken: NSDate!
     var location: String!
    
-    let dateFormatter = StyleKit.TableViewController.TableViewCell.dateFormatter
+    let dateFormatter = Text.dateFormatter
    
     // MARK: - UI Elements
     var dateTakenLabel: UILabel!
     var dateTakenLabelAttributedString: NSMutableAttributedString! {
         didSet {
-            dateTakenLabelAttributedString = NSMutableAttributedString(string: dateTakenLabelAttributedString.string, attributes: StyleKit.TableViewController.TableViewCell.dateLabelTextAttributes())
+            dateTakenLabelAttributedString = NSMutableAttributedString(string: dateTakenLabelAttributedString.string, attributes: Text.dateLabelTextAttributes)
         }
     }
     
     var locationLabel: UILabel! {
         didSet {
-            locationLabel.textColor = StyleKit.TableViewController.TableViewCell.locationLabelTextColor()
-            locationLabel.font = StyleKit.TableViewController.TableViewCell.locationLabelFont()
+            locationLabel.textColor = UIColor.whiteColor()
+            locationLabel.font = UIFont(name: Text.Font.Regular, size: 17.0)
         }
     }
     
