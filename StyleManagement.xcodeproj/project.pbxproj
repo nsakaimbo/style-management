@@ -20,13 +20,13 @@
 		5F9DFB831C4C1AF100B72813 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9DFB821C4C1AF100B72813 /* Device.swift */; };
 		5F9DFB851C4C20BE00B72813 /* UIColor+ConvenienceInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9DFB841C4C20BE00B72813 /* UIColor+ConvenienceInit.swift */; };
 		5F9DFB871C4C3BCF00B72813 /* Rome-Portrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F9DFB861C4C3BCF00B72813 /* Rome-Portrait.jpg */; };
+		5FB0F4791D022546008B7B4F /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB0F4781D022546008B7B4F /* Text.swift */; };
 		5FF4EB8C1C430B83002D16A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF4EB8B1C430B83002D16A1 /* AppDelegate.swift */; };
 		5FF4EB8E1C430B83002D16A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF4EB8D1C430B83002D16A1 /* ViewController.swift */; };
 		5FF4EB911C430B83002D16A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FF4EB8F1C430B83002D16A1 /* Main.storyboard */; };
 		5FF4EB931C430B83002D16A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FF4EB921C430B83002D16A1 /* Assets.xcassets */; };
 		5FF4EB961C430B83002D16A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FF4EB941C430B83002D16A1 /* LaunchScreen.storyboard */; };
 		5FF4EB9E1C430C2D002D16A1 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF4EB9D1C430C2D002D16A1 /* TableViewController.swift */; };
-		5FF4EBA01C430CF8002D16A1 /* StyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF4EB9F1C430CF8002D16A1 /* StyleKit.swift */; };
 		5FF4EBA21C430D65002D16A1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF4EBA11C430D65002D16A1 /* TableViewCell.swift */; };
 		5FF4EBA41C4322B3002D16A1 /* sample.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5FF4EBA31C4322B3002D16A1 /* sample.plist */; };
 /* End PBXBuildFile section */
@@ -45,6 +45,7 @@
 		5F9DFB821C4C1AF100B72813 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 		5F9DFB841C4C20BE00B72813 /* UIColor+ConvenienceInit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+ConvenienceInit.swift"; sourceTree = "<group>"; };
 		5F9DFB861C4C3BCF00B72813 /* Rome-Portrait.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rome-Portrait.jpg"; sourceTree = "<group>"; };
+		5FB0F4781D022546008B7B4F /* Text.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
 		5FF4EB881C430B83002D16A1 /* StyleManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StyleManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FF4EB8B1C430B83002D16A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FF4EB8D1C430B83002D16A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,7 +54,6 @@
 		5FF4EB951C430B83002D16A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FF4EB971C430B83002D16A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FF4EB9D1C430C2D002D16A1 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		5FF4EB9F1C430CF8002D16A1 /* StyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleKit.swift; sourceTree = "<group>"; };
 		5FF4EBA11C430D65002D16A1 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		5FF4EBA31C4322B3002D16A1 /* sample.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sample.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,11 +143,11 @@
 			children = (
 				5FF4EB8B1C430B83002D16A1 /* AppDelegate.swift */,
 				5F9DFB821C4C1AF100B72813 /* Device.swift */,
-				5FF4EB9F1C430CF8002D16A1 /* StyleKit.swift */,
 				5F319C581CF7623E001CDA73 /* Color.swift */,
 				5FF4EB9D1C430C2D002D16A1 /* TableViewController.swift */,
 				5FF4EB8D1C430B83002D16A1 /* ViewController.swift */,
 				5FF4EBA11C430D65002D16A1 /* TableViewCell.swift */,
+				5FB0F4781D022546008B7B4F /* Text.swift */,
 				5FA565A51C4FDBEA00B060C0 /* Protocols+Extensions */,
 				5F9DFB7F1C4C19AE00B72813 /* Storyboards */,
 				5FF4EB921C430B83002D16A1 /* Assets.xcassets */,
@@ -242,9 +242,9 @@
 				5F9DFB851C4C20BE00B72813 /* UIColor+ConvenienceInit.swift in Sources */,
 				5FF4EB8E1C430B83002D16A1 /* ViewController.swift in Sources */,
 				5FF4EB9E1C430C2D002D16A1 /* TableViewController.swift in Sources */,
+				5FB0F4791D022546008B7B4F /* Text.swift in Sources */,
 				5F9DFB831C4C1AF100B72813 /* Device.swift in Sources */,
 				5F319C591CF7623E001CDA73 /* Color.swift in Sources */,
-				5FF4EBA01C430CF8002D16A1 /* StyleKit.swift in Sources */,
 				5FF4EB8C1C430B83002D16A1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
