@@ -10,10 +10,7 @@ import UIKit
 
 struct Text {
     
-    private init() {}
-    
     struct Font {
-        private init() {}
         static let Regular = "HelveticaNeue-Medium"
         static let Light = "HelveticaNeue-Light"
         static let Bold = "HelveticaNeue-Bold"

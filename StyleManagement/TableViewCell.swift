@@ -33,6 +33,7 @@ class TableViewCell: UITableViewCell {
             locationLabel.textColor = UIColor.whiteColor()
             locationLabel.font = UIFont(name: Text.Font.Regular, size: 17.0)
         }
+        
     }
     
     var locationImageView: UIImageView!

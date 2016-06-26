@@ -12,8 +12,6 @@ import UIKit
 
 struct Color {
     
-    private init() {}
-    
     /// red: 0, green: 11, blue: 251
     static let Blue = UIColor(redValue: 0, greenValue: 11, blueValue: 251, alpha: 1)
     

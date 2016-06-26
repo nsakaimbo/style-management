@@ -38,7 +38,7 @@ class TableViewController: UITableViewController {
     // MARK: - UIViewController Life Cycle
     
     // **Side note: Pretty neat way of creating a custom designated initializer.
-    // This helps avoid having to explicitly repeat custom initialization logic in multiple initializer types
+    // This helps avoid having to explicitly repeat custom initialization logic in multiple initializers
     // Thanks to Yusef Napora for this handy post! http://napora.org/nscoder-and-swift-initialization/
     init(_ coder: NSCoder? = nil) {
         self.places = try! DataFetchController.getSampleData()
