@@ -58,18 +58,18 @@ class TableViewController: UITableViewController {
         super.viewDidLoad()
        
         let insets = UIEdgeInsetsMake(Device.statusBarHeight, 0, 0, 0)
-        self.tableView.contentInset = insets
-        self.tableView.scrollIndicatorInsets = insets
-        self.tableView.separatorStyle = .None
-        self.tableView.dataSource = self
-        self.tableView.delegate = self
-        self.tableView.bounces = false
-        self.tableView.rowHeight = kTableViewRowHeight
-        self.tableView.tableFooterView = UIView()
+        tableView.contentInset = insets
+        tableView.scrollIndicatorInsets = insets
+        tableView.separatorStyle = .None
+        tableView.dataSource = self
+        tableView.delegate = self
+        tableView.bounces = true
+        tableView.rowHeight = kTableViewRowHeight
+        tableView.tableFooterView = UIView()
         
         let statusBarView = UIView(frame: CGRect(x: 0, y: 0, width: Device.screenWidth, height: Device.statusBarHeight))
         statusBarView.backgroundColor = self.view.backgroundColor
-        self.navigationController?.view.addSubview(statusBarView)
+        navigationController?.view.addSubview(statusBarView)
     }
 
     override func viewWillAppear(animated: Bool) {
