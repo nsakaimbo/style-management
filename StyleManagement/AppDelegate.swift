@@ -26,6 +26,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().tintColor = Color.Gray.Dark
         UIBarButtonItem.appearanceWhenContainedInInstancesOfClasses([UINavigationBar.self]).setTitleTextAttributes(Text.navigationItemTitleAttributes, forState: .Normal)
         UINavigationBar.appearance().shadowImage = UIImage()
+        UIBarButtonItem.appearanceWhenContainedInInstancesOfClasses([UINavigationBar.self]).tintColor = Color.Green
+        
+        let image = UIImage(named: "NavigationBackBarButtonImage")
+        let backButtonImage = image?.stretchableImageWithLeftCapWidth(15, topCapHeight: 0)
+        UIBarButtonItem.appearance().setBackButtonBackgroundImage(backButtonImage, forState: .Normal, barMetrics: .Default)
         
         return true
     }
