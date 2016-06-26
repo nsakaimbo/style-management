@@ -58,6 +58,8 @@ class TableViewCell: UITableViewCell {
         containerView.addSubview(locationLabel)
         locationLabel.bottomAnchor.constraintEqualToAnchor(containerView.bottomAnchor, constant: -kLayoutMargin).active = true
         locationLabel.trailingAnchor.constraintEqualToAnchor(containerView.trailingAnchor, constant: -kLayoutMargin).active = true
+        locationLabel.leadingAnchor.constraintGreaterThanOrEqualToAnchor(containerView.leadingAnchor, constant: kLayoutMargin).active = true
+        updateLabelAccessibility(locationLabel)
         
         // date taken label
         dateTakenLabel = UILabel()
@@ -66,6 +68,8 @@ class TableViewCell: UITableViewCell {
         containerView.addSubview(dateTakenLabel)
         dateTakenLabel.bottomAnchor.constraintEqualToAnchor(locationLabel.topAnchor, constant: -kLayoutMargin).active = true
         dateTakenLabel.trailingAnchor.constraintEqualToAnchor(containerView.trailingAnchor, constant: -kLayoutMargin).active = true
+        dateTakenLabel.leadingAnchor.constraintGreaterThanOrEqualToAnchor(containerView.leadingAnchor, constant: kLayoutMargin).active = true
+        updateLabelAccessibility(dateTakenLabel)
         
         // image view
         locationImageView = UIImageView()
@@ -77,7 +81,11 @@ class TableViewCell: UITableViewCell {
         locationImageView.leadingAnchor.constraintEqualToAnchor(contentView.leadingAnchor).active = true
         locationImageView.trailingAnchor.constraintEqualToAnchor(contentView.trailingAnchor).active = true
     }
+  
    
+    private func updateLabelAccessibility(label: UILabel) {
+        label.layer.backgroundColor = UIColor(redValue: 1, greenValue: 1, blueValue: 1, alpha: 0.5).CGColor
+    }
     
     // MARK: Update View Properties
     func updateCellLabels(withDate date:NSDate, andLocation location:String) {
